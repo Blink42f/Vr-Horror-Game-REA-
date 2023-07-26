@@ -1,0 +1,62 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "05be2c75-b434-4fb0-a9b4-2eb706e68400",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "8919625c-eeac-47a8-9d04-b9d5196c97c2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "389a0fe3-ba1c-401f-a55a-0fa0824b6653",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Flashlight",
+            "id": "c3f969c8-1c30-45c1-b7e9-6991a832cb58",
+            "actions": [
+                {
+                    "name": "Light",
+                    "type": "Button",
+                    "id": "8c8068d1-9cf5-4673-95af-a7cbd17182e1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c0310da8-1d8b-4747-b9de-4a2f0b858edf",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Light",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
