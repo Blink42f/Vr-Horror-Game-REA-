@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f13f5cd8-33d9-3ec2-79c3-e6cddc9a0903}</ProjectGuid>
+    <ProjectGuid>{0259d199-8420-9eba-1259-b4ed9fd08b8c}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TestTools.CodeCoverage.Editor</AssemblyName>
@@ -341,10 +341,10 @@
         <HintPath>H:\UNITY\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>O:\AIE Unity\Unity Worlds\Test\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>O:\AIE Unity\Repo\Current Game\VR Horror Game\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>O:\AIE Unity\Unity Worlds\Test\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>O:\AIE Unity\Repo\Current Game\VR Horror Game\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>H:\UNITY\2021.3.16f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -730,31 +730,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{bbfe28c5-8d28-e032-8863-a374f03569fd}</Project>
+      <Project>{1fd928aa-1476-30a1-ffda-f455ac1bfbae}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{b3fe7047-f373-10d3-4dca-1f2d0a7d2c3a}</Project>
+      <Project>{3e9e37e5-a2b8-2b21-067e-fa710556a2a8}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{109defc4-378a-0636-0b00-3b8177bdca0e}</Project>
+      <Project>{efacc79a-bd52-9ad1-0369-42f5ef4c91fb}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{0b83cf82-0122-4ea9-f964-5cd80ac890f0}</Project>
+      <Project>{bb7aeb52-8875-4509-fbd0-423c6cd4bde6}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Settings.Editor.csproj">
-      <Project>{865c1b5f-219e-2f54-8bfd-e1ceb4a9f6cb}</Project>
+      <Project>{fd9e3a1c-49d7-6038-36c2-bd891151899d}</Project>
       <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{0e19e11e-c724-0408-308c-9d336ec3d0d3}</Project>
+      <Project>{2e5f4468-243b-c3a3-de0b-55c375f92106}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{bfe95e84-5d2d-6820-c4b1-30686af1fee6}</Project>
+      <Project>{8ad8fd5a-e007-f498-9c11-68be61584c43}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

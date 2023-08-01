@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{e1234839-d6f9-df3a-45b9-414ce8bf97f2}</ProjectGuid>
+    <ProjectGuid>{40a5bd91-9658-91be-31c1-430f894db4c2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.RuntimeDebugger</AssemblyName>
@@ -669,19 +669,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{dbcff3bb-d62b-112a-8f0b-2b877c1c2464}</Project>
+      <Project>{81615777-d672-74ed-4b03-c23aaa7d3485}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{e08143ce-bec0-ccaf-21dc-f1aa07e90419}</Project>
+      <Project>{7021c348-e32c-1989-d966-f87041863794}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{0e19e11e-c724-0408-308c-9d336ec3d0d3}</Project>
+      <Project>{2e5f4468-243b-c3a3-de0b-55c375f92106}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{bfe95e84-5d2d-6820-c4b1-30686af1fee6}</Project>
+      <Project>{8ad8fd5a-e007-f498-9c11-68be61584c43}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

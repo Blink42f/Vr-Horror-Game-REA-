@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8dbc13a5-7d6a-c5d6-eebe-d27cf600d276}</ProjectGuid>
+    <ProjectGuid>{b1e26beb-c062-821c-1d5e-61c9713efcff}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -315,13 +315,13 @@
         <HintPath>H:\UNITY\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>O:\AIE Unity\Unity Worlds\Test\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>O:\AIE Unity\Repo\Current Game\VR Horror Game\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>O:\AIE Unity\Unity Worlds\Test\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>O:\AIE Unity\Repo\Current Game\VR Horror Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>O:\AIE Unity\Unity Worlds\Test\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>O:\AIE Unity\Repo\Current Game\VR Horror Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>H:\UNITY\2021.3.16f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -698,199 +698,207 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{2876ccfc-d89f-fee2-6ceb-7807c7673d35}</Project>
+      <Project>{898d69a0-602e-6501-e648-f31df1657297}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{ee15dd4d-875f-b6bb-2f7b-cd078445f782}</Project>
+      <Project>{098ec73e-7c8c-c0a8-f182-18a41b20ba62}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{51e36071-e2f7-009b-c28c-ae1f4ec0998a}</Project>
+      <Project>{f7a97b0d-7f29-fe7f-8eda-71427d641650}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{109defc4-378a-0636-0b00-3b8177bdca0e}</Project>
+      <Project>{efacc79a-bd52-9ad1-0369-42f5ef4c91fb}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{597527b8-a4b9-8965-7299-aa96663c2687}</Project>
+      <Project>{96cf2d6d-0689-a488-a1d8-e097634a3caf}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{c545be46-5176-1b88-9de8-630a2cded87e}</Project>
+      <Project>{1fcdb16c-1f59-f47f-b22a-0d6d9919ee73}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{4ff1a03e-4b21-5f6a-5499-9ba47fe518de}</Project>
+      <Project>{cbdfdc62-1b7e-5975-c4cd-4a4b5d6d5133}</Project>
       <Name>Unity.ProBuilder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{0b83cf82-0122-4ea9-f964-5cd80ac890f0}</Project>
+      <Project>{bb7aeb52-8875-4509-fbd0-423c6cd4bde6}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{0e19e11e-c724-0408-308c-9d336ec3d0d3}</Project>
+      <Project>{2e5f4468-243b-c3a3-de0b-55c375f92106}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{c7bb43e6-df18-ce3f-491e-1ef63bea8961}</Project>
+      <Project>{e686b4ce-47de-82d2-e13e-75652c993c3d}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{b2bab1d1-63aa-9dc1-0e89-99d240cdb0b3}</Project>
+      <Project>{86c22dea-5cc5-d8c6-898f-0803c09f8fbb}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{48771bb2-2b00-f3ce-e972-11a3e4f130d9}</Project>
+      <Project>{f0d381f4-f9c0-cc40-2aef-995a9038d937}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{bfe95e84-5d2d-6820-c4b1-30686af1fee6}</Project>
+      <Project>{8ad8fd5a-e007-f498-9c11-68be61584c43}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{270e3593-b862-2faa-4076-43b58504fc84}</Project>
+      <Project>{f3c6bfb8-5a95-ea2e-3f15-a3ed0a3f9efd}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{e97777e1-81fc-cd18-3efd-fdd90a45d239}</Project>
+      <Project>{bed816bc-863f-7d9b-6df1-42fd81729880}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.MockHMD.csproj">
+      <Project>{ceadc238-b547-df41-3255-e6fe10dbbba5}</Project>
+      <Name>Unity.XR.MockHMD</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{e6df92d0-f8fb-ee00-5ef9-1c7a0b5c1be1}</Project>
+      <Project>{6d98220d-4315-c016-5700-218cdc8d0b85}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
-      <Project>{1ad4eb2e-907c-0115-4f37-b694fc34b2bf}</Project>
+      <Project>{87fc2f47-f8dd-70ab-8b65-5d7b6aa0eebb}</Project>
       <Name>Unity.XR.Oculus.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{f1aa554f-8729-365a-62ca-65995c4bafe4}</Project>
+      <Project>{b0f62352-6148-5c36-f992-144001d19d50}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
-      <Project>{48068f35-9b4a-da7e-12f9-a5e7849228b0}</Project>
+      <Project>{1d9bb693-7f36-e56f-059f-d608fac7a4fd}</Project>
       <Name>Unity.ProBuilder.AddOns.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{ddcdb058-30fb-f14c-f8fd-d4a4a540ab07}</Project>
+      <Project>{e23d038c-e6a1-09d4-3d33-3a7985bcdbf8}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj">
-      <Project>{adcb6f48-8787-a358-df09-a1793ba5fb89}</Project>
+      <Project>{621601ec-995b-d351-8138-f0e3533d6927}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{c68ce8db-cad5-df6b-356f-7a3ca23a8f5a}</Project>
+      <Project>{65f3a1ec-6461-9c07-9139-2d5c1364070e}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{61cb3120-a5e7-1984-c841-47fd77ec67c5}</Project>
+      <Project>{fa2d1ada-cd78-4fad-3c64-ba513ff24bcd}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{55869a02-bdaa-e14b-f2ec-1425213b5ee0}</Project>
+      <Project>{5eadf185-c258-e052-a1ac-a08c17e8c765}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{b9087dcc-0a28-558d-fb9b-b860d34cc830}</Project>
+      <Project>{157e8ce6-ccf5-1f85-baaf-a3828f65b9c8}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{8c1cfb2b-3409-5f84-28b7-8ae10f20d119}</Project>
+      <Project>{851cf151-a1ec-3bfc-4686-541320ef2861}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
-      <Project>{7390421d-698d-02bc-f8d3-f7a4058440f5}</Project>
+      <Project>{147d033d-3402-5b43-08c6-4222ab7947ce}</Project>
       <Name>Unity.ProBuilder.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{f4ab4143-ed21-17f9-df26-e6a36827373c}</Project>
+      <Project>{8f7d278e-a6c5-f98c-45bd-c5bb8a7fcce7}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{040f4b8a-6649-54b9-d64d-6fa0826e8901}</Project>
+      <Project>{f64688d6-8fd7-0000-511e-66a39231281a}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
-      <Project>{902eb8aa-1586-800a-15af-b181c82a319d}</Project>
+      <Project>{2dbea247-9b13-e3e1-4a72-d72e4f905c0e}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.MockHMD.Editor.csproj">
+      <Project>{850d8624-48d3-7016-3302-c3008eb5700a}</Project>
+      <Name>Unity.XR.MockHMD.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{2186f23c-ea70-41e1-05f8-a116c37fae1a}</Project>
+      <Project>{4fe0617a-75c3-5a22-51ec-a768f054386f}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{2ed6a1e3-f471-47c3-192f-6b5a9798a4f4}</Project>
+      <Project>{51b3bdf7-7ba7-82b1-3171-f4411004e1b9}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
-      <Project>{3d3b670d-3a3e-43c2-0dd5-6a783427ba88}</Project>
+      <Project>{c0eb94f5-8bc9-29a0-6b56-cac2a53a5bf2}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
-      <Project>{afe03b68-c172-1efe-944e-d012763b0a09}</Project>
+      <Project>{4f235479-4b03-71b0-232f-71d9566ce8a6}</Project>
       <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{011a85a0-79f4-0b70-164c-e2821df92057}</Project>
+      <Project>{5deea48e-db1a-aea5-2f7d-deb6149b4e39}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{dbc1928c-9693-c931-15b5-c0c894e96139}</Project>
+      <Project>{0193040e-6255-df7f-8b05-34116d3e5f65}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{e08143ce-bec0-ccaf-21dc-f1aa07e90419}</Project>
+      <Project>{7021c348-e32c-1989-d966-f87041863794}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{f61683d9-7e1c-ffb9-e4a0-48ee991b819d}</Project>
+      <Project>{2bd3a5b0-e078-3640-e57d-986320405d83}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{80e4a2a5-63f4-80fe-10f4-fc692ee9c2e2}</Project>
+      <Project>{650a0946-c4e3-acb7-3c73-2fc84f602fb4}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{f5c287ce-baf4-fe3d-33f9-1731bc870dbd}</Project>
+      <Project>{eb3ac105-3333-e26a-d0f2-82e95bfc4c0c}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{55149e96-a054-4007-b5b7-7379df1f3931}</Project>
+      <Project>{cfcf62b5-8b26-870f-af34-bea255bde50b}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{dbcff3bb-d62b-112a-8f0b-2b877c1c2464}</Project>
+      <Project>{81615777-d672-74ed-4b03-c23aaa7d3485}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
-      <Project>{2b78b2d6-5809-3c0a-a7cb-3254809f0b8e}</Project>
+      <Project>{fc08ce24-e763-890a-7286-a4a7afffa420}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{43e89829-4339-0235-ea9b-505e947da42e}</Project>
+      <Project>{0bc6e926-b852-a520-a5f7-5e80d6a41ea3}</Project>
       <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{8077c3ca-a2e7-eab8-c86f-107fa23ac504}</Project>
+      <Project>{0890fb26-4e16-98fe-8eea-67bb9cfd17b6}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{f13f5cd8-33d9-3ec2-79c3-e6cddc9a0903}</Project>
+      <Project>{0259d199-8420-9eba-1259-b4ed9fd08b8c}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.csproj">
-      <Project>{812ed662-a719-6b92-090d-6e6c9727a27c}</Project>
+      <Project>{839127d1-051b-4fe6-3cf6-e76bde57588d}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
-      <Project>{4329f501-8c05-243d-cd2b-ec5fb705ee40}</Project>
+      <Project>{042d6981-c60f-6b36-ab4a-f0efc392f443}</Project>
       <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{87207d2c-8988-4a2a-cc8e-dbd680ac0978}</Project>
+      <Project>{763d4275-097f-6859-b365-6cd7ad03f857}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>
